@@ -437,10 +437,6 @@ hr {
    font-weight: 600;
 }
 
-h2.name {
-   /* margin-bottom: 40px; */
-}
-
 .content {
    padding: 10px;
    color: var(--dark-blue);
