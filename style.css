@@ -63,15 +63,17 @@ li a {
 }
 
 .image-container {
-   /* background-image: url(images/hero.jpg); */
-   /* background-size: cover;
-   background-position: center; */
+   background-image: url(images/Main-hero.png);
+   background-repeat: no-repeat;
+   background-size: 80%;
+   background-position-x: 600px;
+   background-position-y: 60px;
    position: relative;
    background-color: var(--mid-blue);
-   height: 100%;
+   height: 90%;
    width: 100%;
    margin-top: 0vh;
-   animation: scale 3s;
+   animation: scale 1.5s;
 }
 @keyframes scale {
    0% {
@@ -99,7 +101,7 @@ li a {
    position: absolute;
    top: 35%;
    left: 10%;
-   font-size: 25px;
+   font-size: 35px;
    color: #fff;
    text-transform: uppercase;
    z-index: 2;
@@ -111,9 +113,9 @@ li a {
 
 .resume-cta {
    border: 2px solid var(--blue-text);
-   width: 175px;
+   width: 220px;
    padding: 30px;
-   margin-top: 20px;
+   margin-top: 50px;
 }
 
 .resume-text {
@@ -138,8 +140,7 @@ li a {
    align-items: center;
    justify-content: center;
    margin: 20px;
-   margin-top: 50px;
-   color: var(--dark-blue);
+   color: var(--mid-blue);
 }
 
 .projects {
@@ -244,7 +245,7 @@ li a {
 .about-image {
    height: 450px;
    width: 400px;
-   background-image: url(images/hero.jpg);
+   background-image: url(images/fercho.jpg);
    background-size: cover;
    background-position: center;
    border-radius: 10px 0 0 10px;
