@@ -48,6 +48,10 @@ li a {
    font-size: 1.5rem;
 }
 
+li a:hover {
+   color: var(--blue-text);
+}
+
 #name {
    color: var(--blue-text);
    font-size: 30px;
@@ -99,9 +103,9 @@ li a {
    align-items: left;
    flex-direction: column;
    position: absolute;
-   top: 35%;
+   top: 25%;
    left: 10%;
-   font-size: 35px;
+   font-size: 28px;
    color: #fff;
    text-transform: uppercase;
    z-index: 2;
@@ -113,9 +117,11 @@ li a {
 
 .resume-cta {
    border: 2px solid var(--blue-text);
-   width: 220px;
+   width: 200px;
    padding: 30px;
    margin-top: 50px;
+   text-align: center;
+   border-radius: 5px;
 }
 
 .resume-text {
@@ -134,13 +140,21 @@ li a {
 }
 
 .project-header {
-   font-size: 4rem;
+   font-size: 3rem;
    font-weight: 600;
    display: flex;
    align-items: center;
    justify-content: center;
    margin: 20px;
    color: var(--mid-blue);
+}
+
+hr {
+   border: none;
+   border-top: 1px solid var(--dark-blue) ;
+   width: 70%;
+   margin: 10px auto 0;
+   border-radius: 5px;
 }
 
 .projects {
@@ -208,6 +222,7 @@ li a {
    font-size: 2rem;
    font-weight: 600;
 }
+
 .content {
    padding: 5px;
    color: var(--mid-blue);
@@ -259,6 +274,8 @@ li a {
    font-size: 1.4rem;
 }
 
+
+
 /*  SOCIAL */
 .social-icons {
    display: flex;
@@ -305,12 +322,23 @@ li a {
    }
    
    .container {
-      height: 500px;
+      height: 600px;
    }
 
    .hero-text {
-      margin-top: -280px;
+      margin-top: -180px;
       text-align: left;
+      font-size: 20px;
+   }
+
+   .resume-cta {
+      width: 150px;
+      font-weight: 600;
+      border-radius: 5px;
+   }
+
+   .project-header {
+      font-size: 35px;
    }
 
    .office-project {
@@ -324,6 +352,12 @@ li a {
       background-image: url(images/hero.jpg);
       background-size: cover;
       background-position: right;
+   }
+
+   .name {
+      font-size: 1.4rem;
+      text-align: center;
+      margin-bottom: 20px;
    }
 
    .store-project {
@@ -365,7 +399,7 @@ li a {
       margin-top: 20px;
       height: 300px;
       width: 255px;
-      background-image: url(images/hero.jpg);
+      background-image: url(images/fercho.jpg);
       background-size: cover;
       background-position: center;
       margin-bottom: 15px;
@@ -384,7 +418,7 @@ li a {
    .social-icons {
       font-size: 1.8rem;
       margin-top: 10px;
-      margin-bottom: 120px;
+      margin-bottom: 150px;
       padding-top: 0px;
       color: var(--mid-blue);
    }
