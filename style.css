@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 * {
    margin: 0;
@@ -146,7 +146,7 @@ li a:hover {
    align-items: center;
    justify-content: center;
    margin: 20px;
-   color: var(--mid-blue);
+   color: var(--dark-blue);
 }
 
 hr {
@@ -176,8 +176,6 @@ hr {
    background-image: url(images/huddle.png);
    background-size: 100%;
    background-repeat: no-repeat;
-   /* background-size: cover; */
-   /* background-position: right; */
 }
 .base-project {
    width: 400px;
@@ -190,7 +188,6 @@ hr {
    background-image: url(images/base-apprl.png);
    background-size: 100%;
    background-repeat: no-repeat;
-   /* background-position: center; */
 }
 
 .newsletter-project {
@@ -204,7 +201,6 @@ hr {
    background-image: url(images/newsletter.png);
    background-size: cover;
    background-repeat: no-repeat;
-   background-position-y: 0px;
 }
 /* Projects Row Two */
 .fylo-project {
@@ -219,7 +215,6 @@ hr {
    background-size: 100%;
    background-repeat: no-repeat;
    background-size: cover;
-   /* background-position: right; */
 }
 .cc-details-project {
    width: 400px;
@@ -232,7 +227,6 @@ hr {
    background-image: url(images/cc-details.png);
    background-size: cover;
    background-repeat: no-repeat;
-   /* background-position: center; */
 }
 
 .time-tracker-project {
@@ -246,7 +240,6 @@ hr {
    background-image: url(images/time-tracker.png);
    background-size: cover;
    background-repeat: no-repeat;
-   /* background-position-y: 0px; */
 }
 
 /* Row Three */
@@ -262,7 +255,6 @@ hr {
    background-size: 100%;
    background-repeat: no-repeat;
    background-size: cover;
-   /* background-position: right; */
 }
 .four-card-project {
    width: 400px;
@@ -275,7 +267,6 @@ hr {
    background-image: url(images/four-card.png);
    background-size: cover;
    background-repeat: no-repeat;
-   /* background-position: center; */
 }
 
 .clipboard-project {
@@ -294,33 +285,38 @@ hr {
 
 .text-container {
    position: absolute;
-   height: 75px;
+   height: 74px;
    width: 100%;
+   text-align: center;
    z-index: 2;
    left: 0;
    bottom: 0;
-   background-color: #fff;
+   background-color: #ffffff;
    overflow: hidden;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
 }
 
 .text-container:hover {
-   height: 250px;
+   height: 270px;
 }
 
 .name {
-   margin: 12px 10px 5px;
-   color: var(--dark-blue);
-   font-size: 2rem;
+   margin: 20px 10px 5px;
+   color: var(--mid-blue);
+   font-size: 1.8rem;
    font-weight: 600;
 }
 
 .content {
-   padding: 5px;
-   color: var(--mid-blue);
+   padding: 10px;
+   color: var(--dark-blue);
+   font-size: 1rem;
+   font-weight: 600;
 }
 
 .button {
-   border: 3px solid var(--blue-text);
+   border: 2px solid var(--dark-blue);
    width: 210px;
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
    padding: 15px;
@@ -329,6 +325,11 @@ hr {
    margin: 18px auto;
    display: flex;
    justify-content: center;
+   background-color: white;
+}
+
+h3 {
+   color: var(--mid-blue);
 }
 
 /* ABOUT CONTAINER */
@@ -365,7 +366,9 @@ hr {
    font-size: 1.4rem;
 }
 
-
+strong {
+   color: var(--mid-blue);
+}
 
 /*  SOCIAL */
 .social-icons {
@@ -449,6 +452,7 @@ hr {
       font-size: 1.4rem;
       text-align: center;
       margin-bottom: 20px;
+      margin-top: 20px;
    }
 
    .store-project {
