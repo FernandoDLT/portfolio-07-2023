@@ -441,6 +441,10 @@ strong {
       /* align-items: center; */
    }
 
+   .overlay {
+      width: auto;
+   }
+
    #nav {
       display: none;
    }
@@ -496,10 +500,129 @@ strong {
       margin-top: 20px;
    }
 
+   .huddle-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/huddle.png);
+      background-size: cover;
+      background-position: auto;
+   }
+   
+   .base-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/base-apprl.png);
+      background-size: cover;
+      background-position: auto;
+   }
+   .newsletter-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/newsletter.png);
+      background-size: cover;
+      background-position: auto;
+   }
+   
+   .fylo-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/fylo.png);
+      background-size: 500px;
+      background-position: auto;
+   }
+   .cc-details-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/cc-details.png);
+      background-size: 500px;
+      background-position: auto;
+   }
+   
+   .time-tracker-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/time-tracker.png);
+      background-size: 500px;
+      background-position: auto;
+   }
+   .social-proof-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/social-proof.png);
+      background-size: cover;
+      background-position: auto;
+   }
+   
+   .four-card-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/four-card.png);
+      background-size: cover;
+      background-position: auto;
+   }
+
+   .clipboard-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/clipboard.png);
+      background-size: 500px;
+      background-position-x: -100px;
+   }
+
+   .button {
+      margin-top: 2px;
+      width: 200px;
+   }
+
    .about-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: 300px;
+      margin: 0 auto;
+      margin-bottom: 20px;
       background-color: #f8f8f8;
       box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2);
       background-color: #0c0c0c;
