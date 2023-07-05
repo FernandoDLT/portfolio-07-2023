@@ -438,7 +438,6 @@ strong {
       flex-direction: column;
       justify-content: center;
       margin: 0 auto;
-      /* align-items: center; */
    }
 
    .overlay {
@@ -473,11 +472,11 @@ strong {
    }
    
    .container {
-      height: 600px;
+      height: 620px;
    }
 
    .hero-text {
-      margin-top: -170px;
+      margin-top: -160px;
       text-align: left;
       font-size: 20px;
    }
@@ -489,7 +488,7 @@ strong {
    }
 
    .project-header {
-      font-size: 35px;
+      font-size: 30px;
       text-align: center;
    }
 
