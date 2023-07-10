@@ -78,7 +78,7 @@ li a:hover {
    height: 90%;
    width: 100%;
    margin-top: 0vh;
-   animation: scale 2.5s;
+   animation: scale 3s;
 }
 @keyframes scale {
    0% {
@@ -285,6 +285,7 @@ hr {
    background-repeat: no-repeat;
 }
 
+
 .social-proof-project:hover {
    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.5)), url(images/social-proof.png);
 }
@@ -305,6 +306,26 @@ hr {
 .four-card-project:hover {
    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.5)), url(images/four-card.png);
 }
+
+.todo-project {
+   width: 400px;
+   height: 400px;
+   background-color: #fff;
+   position: relative;
+   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   margin: 50px;
+   background-image: url(images/todo.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position-y: 0px;
+}
+
+.todo-project:hover {
+   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/todo.png);
+}
+
+/* Row Four */
 
 .clipboard-project {
    width: 400px;
