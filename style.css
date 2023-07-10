@@ -315,14 +315,14 @@ hr {
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
    border-radius: 10px;
    margin: 50px;
-   background-image: url(images/todo.png);
+   background-image: url(images/bucket-list.png);
    background-size: 100%;
    background-repeat: no-repeat;
    background-position-y: 0px;
 }
 
 .todo-project:hover {
-   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/todo.png);
+   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/bucket-list.png);
 }
 
 /* Row Four */
