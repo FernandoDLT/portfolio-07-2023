@@ -78,7 +78,7 @@ li a:hover {
    height: 90%;
    width: 100%;
    margin-top: 0vh;
-   animation: scale 1.5s;
+   animation: scale 2.5s;
 }
 @keyframes scale {
    0% {
@@ -379,10 +379,10 @@ h3 {
 
 /* ABOUT CONTAINER */
 .about-container {
-   margin: 10%;
-   width: 80%;
+   margin: 10% auto;
+   width: 75%;
    height: auto;
-   background-color: #0c0c0c;
+   background-color: rgba(8, 8, 8, 255);
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6);
    border-radius: 10px;
 }
@@ -390,29 +390,25 @@ h3 {
 .about-section {
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: left;
    flex-flow: wrap;
 }
 
 .about-image {
    height: 450px;
-   width: 400px;
-   background-image: url(images/fercho.jpg);
-   background-size: cover;
-   background-position: center;
+   width: 480px;
+   background-image: url(images/fdoDLT.jpg);
+   background-repeat: no-repeat;
+   background-size: 80%;
    border-radius: 10px 0 0 10px;
 }
 
 .about-text {
    color: var(--mid-blue);
    height: auto;
-   width: 68%;
-   padding-left: 5%;
-   font-size: 1.4rem;
-}
-
-strong {
-   color: var(--mid-blue);
+   width: 60%;
+   padding-left: 2%;
+   font-size: 1.1rem;
 }
 
 /*  SOCIAL */
@@ -628,10 +624,10 @@ strong {
    }
 
    .about-image {
-      margin-top: 20px;
-      height: 300px;
+      margin: 20px;
+      height: 340px;
       width: 255px;
-      background-image: url(images/fercho.jpg);
+      background-image: url(images/fdoDLT.jpg);
       background-size: cover;
       background-position: center;
       margin-bottom: 15px;
@@ -639,9 +635,9 @@ strong {
    }
 
    .about-text {
-      margin-bottom: 22px;
+      margin: 10px auto;
       width: 80%;
-      font-size: 0.75rem;
+      font-size: 0.65rem;
       color: var(--mid-blue);
       text-align: center;
       padding: 0;
