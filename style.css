@@ -61,10 +61,12 @@ li a:hover {
 
 /* HERO SECTION */
 .container {
-   position: relative;
-   height: 100vh;
+   height: 90vh;
    width: 100%;
+   margin-bottom: 60px;
    overflow: hidden;
+   position: relative;
+   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.4);
 }
 
 .image-container {
@@ -75,11 +77,11 @@ li a:hover {
    background-position-y: 60px;
    position: relative;
    background-color: var(--mid-blue);
-   height: 90%;
+   height: 100%;
    width: 100%;
-   margin-top: 0vh;
    animation: scale 3s;
 }
+
 @keyframes scale {
    0% {
       transform: scale(1.5);
@@ -88,6 +90,7 @@ li a:hover {
       transform: scale(1);
    }
 }
+
 .overlay {
    position: absolute;
    height: 100%;
@@ -307,7 +310,7 @@ hr {
    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.5)), url(images/four-card.png);
 }
 
-.todo-project {
+.bucket-list-project {
    width: 400px;
    height: 400px;
    background-color: #fff;
@@ -321,12 +324,11 @@ hr {
    background-position-y: 0px;
 }
 
-.todo-project:hover {
+.bucket-list-project:hover {
    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(images/bucket-list.png);
 }
 
 /* Row Four */
-
 .clipboard-project {
    width: 400px;
    height: 400px;
@@ -613,6 +615,19 @@ h3 {
       border-radius: 10px;
       margin: 50px;
       background-image: url(images/four-card.png);
+      background-size: cover;
+      background-position: auto;
+   }
+   
+   .bucket-list-project {
+      width: 300px;
+      height: 400px;
+      background-color: #fff;
+      position: relative;
+      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.625);
+      border-radius: 10px;
+      margin: 50px;
+      background-image: url(images/bucket-list.png);
       background-size: cover;
       background-position: auto;
    }
