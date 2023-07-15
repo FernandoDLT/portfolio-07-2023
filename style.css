@@ -32,6 +32,35 @@ a {
    width: 100%;
 }
 
+
+/* Language Links */
+.language-link {
+   position: relative;
+   margin-right: -150px;
+}
+
+.flag-icon {
+   display: none;
+   width: 55px;
+   height: 55px;
+   background-size: cover;
+   margin-left: 0px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.language-link.en:hover .flag-icon {
+   display: inline-block;
+   background-image: url(images/us-flag.png);
+}
+
+.language-link.sp:hover .flag-icon {
+   display: inline-block;
+   background-image: url(images/spain-icon.png);
+}
+
 ul {
    display: flex;
    align-items: center;
@@ -121,7 +150,7 @@ li a:hover {
 
 .resume-cta {
    border: 2px solid var(--blue-text);
-   width: 200px;
+   width: fit-content;
    padding: 30px;
    margin-top: 50px;
    text-align: center;
