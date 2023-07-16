@@ -2,7 +2,7 @@
 
 This is a portfolio website showcasing the my projects and information.
 
-![Main Hero Image](images/porfolio-image.png)
+![Main Portfolio Image]("images/portfolio-image.png")
 
 ## Table of Contents
 - [Description](#description)
