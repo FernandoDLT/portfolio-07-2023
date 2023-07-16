@@ -748,6 +748,12 @@ input:hover {
       height: 620px;
    }
 
+/* Must fix */
+   .image-container {
+         background-image: linear-gradient(350deg, #3ba0ff, #002b8f);
+   }
+
+
    .hero-text {
       margin-top: -130px;
       text-align: left;
