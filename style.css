@@ -477,6 +477,15 @@ h3 {
    color: var(--blue-text);
 }
 
+.social-icons a {
+   display: inline-block;
+   transition: transform 0.8s ease-in-out;
+}
+
+.social-icons a:hover {
+   transform: rotateY(360deg) scale(1.2);
+}
+
 /* FORM */
 h4 {
    color: var(--blue-text);
