@@ -682,7 +682,6 @@ input:hover {
       display: none;
    }
    .language-link {
-      /* padding-right: 205px; */
       color: var(--blue-text);
    }
 
@@ -703,7 +702,7 @@ input:hover {
       margin-left: 0px;
       position: absolute;
       top: 50%;
-      left: 55%;
+      left: 73%;
       transform: translate(-50%, -50%);
 }
 
