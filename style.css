@@ -98,12 +98,18 @@ li a:hover {
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.4);
 }
 
-.image-container {
-   position: relative;
-   background: url(images/Main-hero.png) calc(100% + 250px) 100px no-repeat, linear-gradient(350deg, #3ba0ff, #002b8f);
-   height: 100%;
+.container::before {
+   content: "";
+   position: absolute;
+   /* top: 0; */
+   /* left: 0; */
    width: 100%;
-   animation: scale 3s;
+   height: 100%;
+   background: url(images/Main-hero.png) calc(100% + 250px) 5px no-repeat, linear-gradient(350deg, #3ba0ff, #002b8f);
+   /* background-position: 140% 0%; */
+   background-size: 100%;
+   animation: scale 5s;
+   z-index: -1;
 }
 
 @keyframes scale {
