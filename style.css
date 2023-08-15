@@ -696,7 +696,7 @@ input:hover {
 @media (max-width: 1200px) {  
    #nav li a {
       color: white;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 500;
    }
    
@@ -705,7 +705,7 @@ input:hover {
    }
    
    .container {
-      height: 620px;
+      height: 680px;
       flex-direction: column;
       align-items: center;
       /* background-image: linear-gradient(350deg, #3ba0ff, #002b8f); */
@@ -718,7 +718,6 @@ input:hover {
 
    /* Adjust the hero text position */
    .hero-text {      
-      padding-top: 150px;
       text-align: center;
       width: 90%;
    }
@@ -728,6 +727,10 @@ input:hover {
  @media (max-width: 992px) {
    #nav .nav-bar #project, #about, #contact {    
       display: none;
+   }
+
+   ul {
+      height: 5vh;
    }
 
    li#name {
@@ -780,7 +783,7 @@ input:hover {
    }
 
    .hero-text {
-      top: 6%;
+      top:40px;
       font-size: 12px;
       text-align: center;
    }
