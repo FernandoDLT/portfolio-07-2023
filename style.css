@@ -708,7 +708,8 @@ input:hover {
       height: 620px;
       flex-direction: column;
       align-items: center;
-      background-image: linear-gradient(350deg, #3ba0ff, #002b8f);
+      /* background-image: linear-gradient(350deg, #3ba0ff, #002b8f); */
+      background-image: linear-gradient(320deg, #002b8f, #3ba0ff);
    }
    
    .resume-cta {
@@ -725,7 +726,7 @@ input:hover {
 
 /* Media Query for screens with a maximum width of 960px */
  @media (max-width: 992px) {
-     #nav .nav-bar #project, #about, #contact {    
+   #nav .nav-bar #project, #about, #contact {    
       display: none;
    }
 
@@ -755,6 +756,16 @@ input:hover {
       font-size: 10px;
    }
 
+   .flag-icon {
+      display: none;
+      width: 35px;
+      height: 35px;
+      background-size: cover;
+      margin-left: 0px;
+      position: absolute;
+      top: 50%;
+   }
+
    ul i {
       color: white;
    }
@@ -763,7 +774,6 @@ input:hover {
       color: var(--mid-blue);
    }
    
-
    .container {
       height: 400px;
       align-items: center;
