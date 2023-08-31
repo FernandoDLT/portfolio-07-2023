@@ -494,7 +494,7 @@ h3 {
 
 .social-icons a {
    display: inline-block;
-   transition: transform 0.8s ease-in-out;
+   transition: transform 0.3s ease-in-out;
 }
 
 .social-icons a:hover {
