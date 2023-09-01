@@ -478,7 +478,7 @@ h3 {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   font-size: 3rem;
+   font-size: 2.6rem;
    width: 30%;
    margin: 6% 35% 2%;
    padding-top: 30px;
@@ -494,11 +494,11 @@ h3 {
 
 .social-icons a {
    display: inline-block;
-   transition: transform 0.3s ease-in-out;
+   transition: transform 0.25s ease-in-out;
 }
 
 .social-icons a:hover {
-   transform: rotateY(360deg) scale(1.2);
+   transform: rotateY(360deg) scale(1.4);
 }
 
 /* FORM */
