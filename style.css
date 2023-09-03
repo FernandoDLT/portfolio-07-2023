@@ -715,7 +715,7 @@ input:hover {
    }
    
    .container {
-      height: 700px;
+      height: 620px;
       flex-direction: column;
       align-items: center;
       background-image: linear-gradient(320deg, #002b8f, #3ba0ff);
@@ -733,7 +733,7 @@ input:hover {
    .hero-text {      
       text-align: center;
       width: 90%;
-      top: 18%;
+      top: 140px;
    }
 
    .project-header {
