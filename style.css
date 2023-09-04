@@ -71,15 +71,8 @@ a {
 a#project,
 a#about,
 a#contact {
-   font-weight: 300;
-   text-transform: uppercase;
-}
-
-a#project:hover,
-a#about:hover,
-a#contact:hover {
-   font-size: 25px;
    font-weight: 500;
+   text-transform: uppercase;
 }
 
 ul {
@@ -168,7 +161,7 @@ li a:hover {
    border: 2px solid var(--blue-text);
    width: fit-content;
    padding: 30px;
-   margin-top: 50px;
+   margin: 100px 0 0 0;
    text-align: center;
    border-radius: 5px;
 }
