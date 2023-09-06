@@ -13,7 +13,7 @@ form.addEventListener('submit', function(event) {
     box.style.background = 'linear-gradient(350deg, #3ba0ff, #002b8f)';
 
     const message = document.createElement('h4');
-    message.innerText = 'You are now logged in...';
+    message.innerText = 'Your email has been sent!';
 
     box.classList.add('show-message');
     box.appendChild(message);
