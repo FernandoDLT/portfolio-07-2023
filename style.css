@@ -17,6 +17,7 @@ html {
    scroll-behavior: smooth;
 }
 
+/* NAVBAR SECTION */
 li#name {
    color: var(--blue-text);
    font-size: 30px;
@@ -24,7 +25,6 @@ li#name {
    margin-right: 80px;
 }
 
-/* NAVBAR SECTION */
 #mobile-nav {
    display: none;
 }
@@ -40,6 +40,7 @@ a {
    text-decoration: none;
 }
 
+/* Flags */
 .flag-icon {
    display: none;
    width: 55px;
@@ -102,6 +103,7 @@ li a:hover {
    color: var(--blue-text);
 }
 
+/* Main Container Section */
 .container {
    position: relative;
    overflow: hidden;
@@ -161,6 +163,7 @@ li a:hover {
    color: var(--blue-text);
 }
 
+/* Resume */
 .resume-cta {
    border: 2px solid var(--blue-text);
    width: fit-content;
@@ -330,7 +333,6 @@ hr {
    background-size: cover;
    background-repeat: no-repeat;
 }
-
 
 .social-proof-project:hover {
    background-image: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.5)), url(images/social-proof.png);
@@ -554,6 +556,7 @@ h4 {
    display: none;
 }
 
+/* Box animation */
 @keyframes animate {
    0% {
       transform: rotate(0deg);
@@ -692,7 +695,7 @@ input:hover {
 }
 
 
-/* MOBILE */
+/* MEDIA MOBILE */
 @media (max-width: 1200px) {  
    #nav li a {
       color: white;
