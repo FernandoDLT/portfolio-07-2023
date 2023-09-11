@@ -481,11 +481,11 @@ h3 {
 }
 
 .social-icons i {
-   color: var(--mid-blue);
+   color: var(--blue-text);
 }
 
 .social-icons i:hover {
-   color: var(--blue-text);
+   color: var(--mid-blue);
 }
 
 .social-icons a {
