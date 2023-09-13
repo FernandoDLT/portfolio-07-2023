@@ -513,7 +513,7 @@ h4 {
    margin: 0 auto 100px;
    position: relative;
    width: 880px;
-   height: 450px;
+   height: 550px;
    background-color: #1c1c1c;
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6);
    border-radius: 50px 5px;
@@ -575,22 +575,25 @@ form {
    border-radius: 50px 5px;
    background-color: rgba(8, 8, 8, 255);
    z-index: 10;
-   padding: 30px 30px;
+   padding: 60px 30px;
    display: flex;
    flex-direction: column;
 }
 
 h2 {
    color: var(--mid-blue);
-   font-size: 35px;
-   font-weight: 500;
+   color: var(--blue-text);
+   font-size: 45px;
+   font-weight: 700;
+   letter-spacing: .02em;
    text-align: center;
    padding-top: 10px;
+   padding-bottom: 15px;
 }
 
 .inputBox {
    position: relative;
-   width: 350px;
+   width: 380px;
    margin: 55px auto 0;
 }
 
@@ -614,6 +617,7 @@ input[type="submit"] {
    outline: none;
    color: white;
    background-color: var(--mid-blue);
+   background-color: var(--blue-text);
    width: 400px;
    padding: 5px;
    margin: 60px auto;
