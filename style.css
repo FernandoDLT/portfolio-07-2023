@@ -399,10 +399,11 @@ hr {
 }
 
 .text-container:hover {
-   height: 250px;
+   height: 100%;
    border: 1px solid var(--blue-text);
    transition: height .3s ease-out, background-color .5s ease-out; 
    background-image: linear-gradient(rgba(255, 255, 255, 0.5), var(--mid-blue));
+   border-radius: 10px;
 }
 
 h2.name {
@@ -500,13 +501,13 @@ h3 {
 /* FORM */
 h4 {
    color: var(--blue-text);
-   font-size: 38px;
-   font-weight: 700;
+   font-size: 50px;
+   font-weight: 600;
    display: flex;
    align-items: center;
    justify-content: center;
    text-align: center;
-   margin-top: 200px;
+   margin-top: 245px;
 }
 
 .box {
@@ -514,7 +515,7 @@ h4 {
    position: relative;
    width: 880px;
    height: 550px;
-   background-color: #1c1c1c;
+   background-color: rgb(235, 235, 235);
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6);
    border-radius: 50px 5px;
    overflow: hidden;
@@ -573,16 +574,15 @@ form {
    position: absolute;
    inset: 2px;
    border-radius: 50px 5px;
-   background-color: rgba(8, 8, 8, 255);
+   background: linear-gradient(150deg, #3ba0ff, #133b99);
    z-index: 10;
-   padding: 60px 30px;
+   padding: 50px 30px;
    display: flex;
    flex-direction: column;
 }
 
 h2 {
-   color: var(--mid-blue);
-   color: var(--blue-text);
+   color: rgb(255, 255, 255);
    font-size: 45px;
    font-weight: 700;
    letter-spacing: .02em;
@@ -615,11 +615,10 @@ input[type="submit"] {
    font-size: 20px;
    border: none;
    outline: none;
-   color: white;
-   background-color: var(--mid-blue);
-   background-color: var(--blue-text);
+   color: var(--mid-blue);
+   background: white;
    width: 400px;
-   padding: 5px;
+   padding: 12px;
    margin: 60px auto;
    border-radius: 90px;
    font-weight: 600;
@@ -632,8 +631,8 @@ input[type="submit"]:active {
 }
 
 input:hover {
-   background: #fff;
-   color: var(--dark-blue);
+   color: white;
+   background: var(--mid-blue);
 }
 
 .inputBox span {
