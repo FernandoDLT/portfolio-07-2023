@@ -601,21 +601,19 @@ h2 {
    position: relative;
    width: 100%;
    padding: 20px 10px 10px;
-   background: rgb(17, 17, 17);
    border: none;
    outline: none;
-   color: var(--mid-blue);
-   color: white;
-   font-size: 1.2em;
+   color: var(--dark-blue);
+   font-size: 1.4em;
    letter-spacing: .05em;
-   border-radius: 15px 0px;
+   border-radius: 5px;
 }
 
 input[type="submit"] {
    font-size: 20px;
    border: none;
    outline: none;
-   color: var(--mid-blue);
+   color: var(--dark-blue);
    background: white;
    width: 400px;
    padding: 12px;
@@ -631,16 +629,17 @@ input[type="submit"]:active {
 }
 
 input:hover {
-   color: white;
-   background: var(--mid-blue);
+   color: var(--dark-blue);
+   background: var(--blue-text);
 }
 
 .inputBox span {
    position: absolute;
    left: 0;
    padding: 20px 10px 10px;
-   font-size: .95em;
-   color: var(--blue-text);
+   font-size: .8em;
+   font-weight: 500;
+   color: var(--dark-blue);
    pointer-events: none;
    letter-spacing: 0.05em;
    transition: 0.5s;
@@ -648,16 +647,16 @@ input:hover {
 
 .inputBox input:valid~span,
 .inputBox input:focus~span {
-   /* color: var(--mid-blue); */
    transform: translateX(-10px) translateY(-50px);
    font-size: 0.80em;
+   color: white;
 }
 
 .inputBox #emailInput.has-value~span,
 .inputBox #emailInput:focus~span {
-   /* color: var(--mid-blue); */
    transform: translateX(-10px) translateY(-50px);
    font-size: 0.80em;
+   color: white;
 }
 
 .inputBox i {
