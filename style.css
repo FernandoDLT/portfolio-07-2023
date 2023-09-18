@@ -444,7 +444,7 @@ h3 {
 /* ABOUT CONTAINER */
 .about-container {
    margin: 5% auto;
-   width: 65%;
+   width: 80%;
    height: auto;
    background-color: rgba(8, 8, 8, 255);
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6);
@@ -470,9 +470,9 @@ h3 {
 .about-text {
    color: var(--mid-blue);
    height: auto;
-   width: 60%;
+   width: 72%;
    padding-left: 0;
-   font-size: .8rem;
+   font-size: 1rem;
 }
 
 /*  SOCIAL */
