@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 * {
    margin: 0;
@@ -118,6 +118,7 @@ li a {
 
 li a:hover {
    color: var(--blue-text);
+   font-weight: bolder;
 }
 
 /* Main Container Section */
@@ -131,7 +132,7 @@ li a:hover {
 .image-container {
    content: "";
    position: absolute;
-   bottom: -10%;
+   /* bottom: -10%; */
    left: 0;
    width: 100%;
    height: 110%;
@@ -203,8 +204,8 @@ li a:hover {
 hr {
    border: none;
    border-top: 1px solid var(--mid-blue) ;
-   width: 70%;
-   margin: 10px auto 10px;
+   width: 76%;
+   margin: 20px auto 10px;
    border-radius: 5px;
 }
 
@@ -216,7 +217,7 @@ hr {
 }
 
 .project-item {
-   width: 300px;
+   width: 320px;
    background-color: #fff;
    position: relative;
    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
@@ -226,7 +227,7 @@ hr {
 
 /* Projects Row One */
 .huddle-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -242,7 +243,7 @@ hr {
 }
 
 .base-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -258,7 +259,7 @@ hr {
 }
 
 .newsletter-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -275,7 +276,7 @@ hr {
 
 /* Projects Row Two */
 .fylo-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -284,7 +285,7 @@ hr {
    background-image: url(images/fylo.png);
    background-size: 100%;
    background-repeat: no-repeat;
-   background-size: cover;
+   /* background-size: cover; */
 }
 
 .fylo-project:hover {
@@ -292,7 +293,7 @@ hr {
 }
 
 .cc-details-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -308,7 +309,7 @@ hr {
 }
 
 .time-tracker-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -325,7 +326,7 @@ hr {
 
 /* Row Three */
 .social-proof-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -342,7 +343,7 @@ hr {
 }
 
 .four-card-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -358,7 +359,7 @@ hr {
 }
 
 .bucket-list-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -367,7 +368,7 @@ hr {
    background-image: url(images/bucket-list.png);
    background-size: 100%;
    background-repeat: no-repeat;
-   background-position-y: 0px;
+   /* background-position-y: 0px; */
 }
 
 .bucket-list-project:hover {
@@ -376,7 +377,7 @@ hr {
 
 /* ROW FOUR */
 .clipboard-project {
-   width: 300px;
+   width: 320px;
    height: 300px;
    background-color: #fff;
    position: relative;
@@ -385,7 +386,7 @@ hr {
    background-image: url(images/clipboard.png);
    background-size: 100%;
    background-repeat: no-repeat;
-   background-position-y: 0px;
+   /* background-position-y: 0px; */
 }
 
 .clipboard-project:hover {
@@ -397,12 +398,14 @@ hr {
    height: 10px;
    width: 100%;
    text-align: center;
-   padding-bottom: 85px;
+   padding-top: 10px;
+   padding-bottom: 55px;
    z-index: 2;
    left: 0;
    bottom: 0;
-   background-color: #ffffff;
+   background-color: #fff;
    overflow: hidden;
+   box-shadow: 0px -1px 30px rgba(0, 0, 0, 0.2);
    border-bottom-right-radius: 5px;
    border-bottom-left-radius: 5px;
    transition: height .6s ease-in, background-color .5s ease-in;
@@ -417,17 +420,17 @@ hr {
 }
 
 h2.name {
-   margin: 30px 10px -15px;
+   margin: 2px 10px -10px;
    color: var(--mid-blue);
    font-size: 1.6rem;
    font-weight: 600;
 }
 
 .content {
-   padding: 5px 5px 20px;
+   padding: 5px 15px 20px;
    margin-top: 10px;
    color: var(--dark-blue);
-   font-size: .95rem;
+   font-size: 1.2rem;
    font-weight: 600;
 }
 
