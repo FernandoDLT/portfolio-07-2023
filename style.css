@@ -5,12 +5,12 @@
    padding: 0;
    box-sizing: border-box;
 }
-
 :root {
    --blue-text: #86ddff;
    --dark-blue: #002b8f;
    --mid-blue: #3ba0ff;
 }
+
 
 html {
    font-family: 'Montserrat', sans-serif;
@@ -466,8 +466,8 @@ h3 {
    margin: 5% auto;
    width: 80%;
    height: auto;
-   background-color: rgba(8, 8, 8, 255);
-   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6);
+   /* background-color: rgba(8, 8, 8, 255); */
+   /* box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.6); */
    border-radius: 10px;
 }
 
@@ -481,14 +481,14 @@ h3 {
 .about-image {
    height: 250px;
    width: 260px;
-   background-image: url(images/fdoDLT.jpg);
+   /* background-image: url(images/fdoDLT.jpg); */
    background-repeat: no-repeat;
    background-size: 70%;
    border-radius: 10px 0 0 10px;
 }
 
 .about-text {
-   color: var(--blue-text);
+   color: var(--dark-blue);
    height: auto;
    width: 72%;
    padding-left: 0;
