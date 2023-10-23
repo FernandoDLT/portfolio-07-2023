@@ -425,7 +425,7 @@ hr {
 .text-container:hover {
    height: 100%;
    border: 1px solid var(--blue-text);
-   transition: height .3s ease-out, background-color .5s ease-out; 
+   transition: height .2s ease-out, background-color .5s ease-out; 
    background-image: linear-gradient(rgba(255, 255, 255, 0.5), var(--mid-blue));
    border-radius: 10px;
 }
